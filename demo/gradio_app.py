@@ -121,5 +121,5 @@ if __name__ == "__main__":
                         input_image, grounding_caption, box_threshold, text_threshold], outputs=[gallery])
 
 
-    block.launch(server_name='0.0.0.0', server_port=7579, debug=args.debug, share=args.share)
+    block.launch(server_name='0.0.0.0', server_port=7579, debug=args.debug, share=True)
 
